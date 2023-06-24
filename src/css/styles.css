@@ -1,0 +1,119 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffffff;
+   margin: 0 auto;
+}
+
+.search {
+background: linear-gradient(0deg, rgba(17,14,73,1)
+ 0%, rgba(23,23,144,1) 100%);
+ width: 100%;
+ height: 100%;
+}
+
+.gallery {
+  padding-left: 20px;
+}
+
+.photo-card {
+      display: inline-block;
+      width: 300px;
+      margin: 15px;
+      padding: 15px;
+      background: #ededed;
+      border: 2px solid #565454;
+      border-radius: 8px;
+      text-align: center;
+    }
+.photo-card img {
+      width: 100%;
+      margin-bottom: 5px;
+      border-radius: 4px;
+    }
+
+.info {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      border: 1px solid rgb(70, 69, 69);
+      border-radius: 4px;
+      background: rgb(242,242,215);
+      background: linear-gradient(180deg, rgba(242,242,215,1) 0%, rgba(255,254,198,1) 100%);
+    }
+
+.info-item {
+      font-size: 12px;
+      display: flex;
+      gap: 5px;
+      display: grid;
+      margin: 10px 0;         
+    }
+ 
+.search-form {
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+.search-form input[type="text"] {
+      position: relative;
+      width: 300px;
+      height: 42px;
+      padding-left: 10px;
+      border: 2px solid rgb(18, 110, 112);
+      border-radius: 5px;
+      outline: none;
+      background: #eceae6;
+      color: #3c3b3b;
+      border-radius: 5px 0 0 5px;
+    }
+    
+.search-form button {
+       position: absolute; 
+       top: 25px;
+       width: 50px;
+       height: 47px;
+       border: none;  
+       box-shadow:  4px 4px rgba(0, 0, 0, 0.15);    
+       background: rgb(34,193,195);
+       background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(15,89,87,1) 80%);
+       border-radius: 0 5px 5px 0;
+       cursor: pointer;
+    }
+
+.search-form button:hover {
+background: rgb(19, 113, 114);
+} 
+    
+.load-more {
+      display: none;
+      position: relative;
+      left: 680px;
+      cursor: pointer;      
+      margin-bottom: 15px;        
+      padding: 10px 20px;
+      font-size: 16px;        
+      background: rgb(34,193,195);
+      background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(15,89,87,1) 80%);
+      color: #fff;
+      border-radius: 5px;
+      border: 1px solid black;                 
+    }
+    
+.load-more:hover {
+background: rgb(19, 113, 114);
+} 
+
+.svg {
+padding-left: 10px;
+
+}
+
+#end-message {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 20px;
+      color: #ef1111;
+    }
+    
+    
+ 
